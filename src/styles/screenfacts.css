@@ -1,10 +1,23 @@
+.curiosity-screen {
+    display: flex;
+    flex-direction: column;
+    height: 132vw;
+}
+
+.facts-cat-div {
+    display: flex;
+    justify-content: center;
+}
+
 .facts-cat {
     height: auto;
     width: 100px;
+    z-index: 99;
 }
 
 .fact-content {
     display: flex;
+    align-items: center;
     flex-direction: column;
     height: 80%;
     background-color: #00d4d8;
