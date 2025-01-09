@@ -1,0 +1,38 @@
+.facts-cat {
+    height: auto;
+    width: 100px;
+}
+
+.fact-content {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    background-color: #00d4d8;
+    margin: 20px;
+    border-radius: 3%;
+}
+
+.footer-css {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.add-to-favorites {
+    height: auto;
+    width: 90px;
+}
+
+.next-fact {
+    height: auto;
+    width: 90px;
+}
+
+.favorites-list {
+    height: auto;
+    width: 90px;
+}

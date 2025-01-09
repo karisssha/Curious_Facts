@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/screenfacts.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
 
 <!-- FIRST SCREEN - WELCOME -->
 
-    <div class="welcome-screen">
+    <div class="welcome-screen hidden">
         <div id="welcome-text">Curious
             <br>
             Cat Facts</div>
@@ -23,9 +24,9 @@
 
 <!-- SECOND SCREEN - CURIOUS FACT -->
 
-<div class="curiosity-screen hidden">
+<div class="curiosity-screen">
    <div class="fact-content">
-        <img src="" alt="Image of a cat with a shocking expression">
+        <img class="facts-cat" src="/assets/img/cat_splash.svg" alt="Image of a cat with a shocking expression">
         <p id="fact-API">Text</p>
     </div>
 </div>
@@ -47,9 +48,9 @@
  </div>
 
 </body>
-<footer class="hidden">
-    <button class="add-to-favorites" onclick=""><img src="" alt="Button to add curious fact to Favorites"></button>
-    <button class="next-fact" onclick=""><img src="" alt="Button to go to the next favorite"></button>
-    <button class="favorites-list" onclick=""><img src="" alt="Button to go to the Favorites List"></button>
+<footer class="footer-css">
+    <img class="add-to-favorites" onclick="" src="/assets/img/bt_add_fav.svg" alt="Button to add curious fact to Favorites">
+    <img class="next-fact" onclick="" src="/assets/img/bt_next.svg" alt="Button to go to the next favorite">
+    <img class="favorites-list" onclick="" src="/assets/img/bt_myfav.svg" alt="Button to go to the Favorites List">
 </footer>
 </html>
