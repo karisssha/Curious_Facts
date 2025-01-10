@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="./src/styles/main.css">
     <link rel="stylesheet" href="./src/styles/screenfacts.css">
     <link rel="stylesheet" href="./src/styles/queries.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./src/styles/screenfavorites.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="./src/styles/queries.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
     <title>SPA cat facts</title>
@@ -25,7 +26,7 @@
 
 <!-- SECOND SCREEN - CURIOUS FACT -->
 
-<div class="curiosity-screen">
+<div class="curiosity-screen hidden">
     <div class="facts-cat-div">
         <img class="facts-cat" src="/assets/img/cat_splash.svg" alt="Image of a cat with a shocking expression">
     </div>
@@ -35,10 +36,12 @@
 </div>
 
 <!--THIRD SCREEN - FAVORITES LIST-->
-<div class="favorites-screen hidden">
-    <div class="fav-content">
-         <img src="" alt="image of cat with heart eyes">
-         <p id="fav-fact"> favorite fact </p>
+<div class="favorites-screen">
+    <div class="fav-cat-div">
+         <img class="fav-cat" src="./assets/img/cat_favourites.svg" alt="image of cat with heart eyes">
+     </div>
+     <div class="fav-fact-content">
+        <p class="text" id="fav-fact"> my favourites </p>
      </div>
  </div>
 
@@ -50,10 +53,12 @@
      </div>
  </div>
 
-</body>
-<footer class="footer-css">
+ <footer class="footer-css">
     <img class="add-to-favorites" onclick="" src="/assets/img/bt_add_fav.svg" alt="Button to add curious fact to Favorites">
     <img class="next-fact" onclick="" src="/assets/img/bt_next.svg" alt="Button to go to the next favorite">
     <img class="favorites-list" onclick="" src="/assets/img/bt_myfav.svg" alt="Button to go to the Favorites List">
 </footer>
+
+</body>
+
 </html>
