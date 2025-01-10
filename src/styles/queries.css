@@ -1,0 +1,9 @@
+@media all and (min-width: 1025px) {
+    .fact-content{
+        max-height: 20vw;
+    }
+
+    .facts-cat {
+        width: 11vw;
+    }
+    }
