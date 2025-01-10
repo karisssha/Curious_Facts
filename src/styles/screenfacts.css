@@ -8,16 +8,18 @@
 }
 
 .facts-cat-div {
-    display: grid;
+    position:absolute;
+    display: flex;
+    justify-content: center;
     place-items: center;
     z-index: 99;
+    margin-bottom: 115vw;
 }
 
 .facts-cat {
     height: auto;
     width: 30vw;
     position: absolute;
-    margin-top: 30vwx;
 }
 
 .fact-content {
@@ -27,7 +29,8 @@
     flex-direction: column;
     height: 92%;
     background-color: #00d4d8;
-    margin: 22px;
+    margin: 1em;
+    margin-bottom: 4em;
     margin-top: 15vw;
     border-radius: 7%;
     min-width: 80vw;
