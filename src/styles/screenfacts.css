@@ -1,0 +1,68 @@
+.curiosity-screen {
+    display: flex;
+    flex-direction: column;
+    height: 144vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17vw;
+}
+
+.facts-cat-div {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    z-index: 99;
+    margin-bottom: 115vw;
+}
+
+.facts-cat {
+    height: auto;
+    width: 30vw;
+    position: absolute;
+}
+
+.fact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 92%;
+    background-color: #00d4d8;
+    margin: 1em;
+    margin-bottom: 4em;
+    margin-top: 15vw;
+    border-radius: 7%;
+    min-width: 80vw;
+    min-height: 109vw;
+}
+
+.footer-css {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    margin-bottom: 25px;
+}
+
+.add-to-favorites {
+    height: auto;
+    width: 90px;
+}
+
+.next-fact {
+    height: auto;
+    width: 90px;
+}
+
+.favorites-list {
+    height: auto;
+    width: 90px;
+}
+
+.hidden {
+    display: none;
+}
