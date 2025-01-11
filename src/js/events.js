@@ -1,13 +1,14 @@
 import { getRandomFact } from "./api.js";
-import { changeRandomFact } from "./functions.js"
-import { addFavourite } from "./favourites.js";
+
+import { addFavourite, renderFavourites } from "./favourites.js";
+
 // evento click API
 
 function showRandomFact (){
     getRandomFact();
     const curiosityScreen = document.querySelector ('#id-curiosity-screen');
     const fact = document.querySelector ('#fact-API');
-    const favouriteFacts = document.querySelector ('#favourite-facts');
+    const favouriteFacts = document.querySelector ('#favourites-list');
     const kitty = document.querySelector ('#facts-cat');
 
     fact.classList.remove ('hidden');
@@ -29,9 +30,10 @@ clickAddFavourite.addEventListener("click", addFavourite)
 //function for showing and hidden screens
 
 function showFavourites (){
+    renderFavourites()
     const curiosityScreen = document.querySelector ('#id-curiosity-screen');
     const fact = document.querySelector ('#fact-API');
-    const favouriteFacts = document.querySelector ('#favourite-facts');
+    const favouriteFacts = document.querySelector ('#favourites-list');
     const kitty = document.querySelector ('#facts-cat');
 
     fact.classList.add ('hidden');

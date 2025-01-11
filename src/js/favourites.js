@@ -13,3 +13,18 @@ export const addFavourite = function (){
     localStorage.setItem('favourites', JSON.stringify(favourites));
 }
 
+//render favourite list
+
+export const renderFavourites = function (){
+    const ul = document.createElement("ul")
+    ul.setAttribute ("id", "id-favourite-fact")
+    document.querySelector ("#favourites-list").innerHTML = ""
+    document.querySelector ("#favourites-list").appendChild(ul)
+
+    let favourites = getFavourites();
+    for (const [key, value] of Object.entries(favourites)) {
+        const li = document.createElement("li")
+        li.innerHTML = value.substring(0,40) + "..."
+        ul.appendChild(li)
+    };
+}
