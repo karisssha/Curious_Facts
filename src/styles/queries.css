@@ -9,9 +9,7 @@
         
     }
 
-    .facts-cat {
-        /* width: 11vw; */
-    }
+
 
 
     @media (max-width:345px) {
@@ -24,7 +22,7 @@
         /* background-color: blue; */
     }
 
-    .facts-cat {
+    #facts-cat {
         height: 8em;
         margin-bottom: 12em; 
         
@@ -33,7 +31,7 @@
         /* position: absolute; */
     }
 
-    #fact-API{
+    #fact-API, #fav-fact{
         margin: 12%;
         margin-top: 120px;
         text-align: center;

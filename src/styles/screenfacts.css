@@ -1,4 +1,4 @@
-.curiosity-screen {
+.curiosity-screen{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@
     position:absolute;
 }
 
-.facts-cat {
+#facts-cat {
     height: 17em;
     margin-bottom: 42em; 
     /* height: auto;
@@ -37,20 +37,23 @@
     justify-content: center; 
     flex-direction: column; */
     /* height: auto; */
+    /* margin: 2em; */
+    /* margin-bottom: 4em; 
+    margin-top: 15vw; */
+    /* min-width: 80vw; 
+    min-height: 129vw;  */
+    font-size: 40pt;
+    border-radius: 40px; 
     position: relative;
     margin-top: 120px;
     background-color: #00d4d8;
     background-image: url("/assets/img/stars_bg.svg");
     height: 900px;
-    /* margin: 2em; */
-    /* margin-bottom: 4em; 
-    margin-top: 15vw; */
-    border-radius: 40px; 
-    /* min-width: 80vw; 
-    min-height: 129vw;  */
-    font-size: 40pt;
-    
-  
+
+}
+
+.favourite .fact-content {
+    background-color: #F04F9B;
 }
 
 #fact-API{

@@ -27,36 +27,41 @@
 
 <!-- SECOND SCREEN - CURIOUS FACT -->
 
-<div class="curiosity-screen">
+<div class="curiosity-screen" id="id-curiosity-screen">
     <div class="facts-cat-div">
-        <img class="facts-cat" src="/assets/img/cat_splash.svg" alt="Image of a cat with a shocking expression">
+        <img id="facts-cat" src="/assets/img/cat_splash.svg" alt="Image of a cat with a shocking expression">
     </div>
    <div class="fact-content">
         <input type="hidden" id="fact-API-id">
         <p id="fact-API">Text</p>
+        <ul id="favourite-facts" class="hidden">
+            <li>test</li>
+        </ul>
     </div>
 </div>
 
 <!--THIRD SCREEN - FAVORITES LIST-->
-<div class="favorites-screen hidden">
+<!-- <div class="favorites-screen hidden" id="id-favourites-screen">
+    <div class="facts-cat-div">
+        <img class="facts-cat" src="/assets/img/cat_favourites.svg" alt="Image of a cat with a shocking expression">
+    </div>
     <div class="fav-content">
-         <img src="" alt="image of cat with heart eyes">
          <p id="fav-fact"> favorite fact </p>
      </div>
- </div>
+ </div> -->
 
  <!--FOURTH SCREEN - SELECTED FAVORITES -->
- <div class="selected-favorite hidden">
+ <!-- <div class="selected-favorite hidden" id="id-selected-favourite">
     <div class="fav-selection">
          <img src="" alt="image of cat with heart eyes">
          <p id="picked-fav-fact"> favorite fact </p>
      </div>
- </div>
+ </div> -->
 
  <footer class="footer-css">
     <img class="add-to-favorites" id="id_addToFavourite" src="/assets/img/bt_add_fav.svg" alt="Button to add curious fact to Favorites">
     <img id="next-fact-btn" class="next-fact" src="/assets/img/bt_next.svg" alt="Button to go to the next favorite">
-    <img class="favorites-list" onclick="" src="/assets/img/bt_myfav.svg" alt="Button to go to the Favorites List">
+    <img class="favorites-list" id="id_goToFavourites" src="/assets/img/bt_myfav.svg" alt="Button to go to the Favorites List">
 </footer>
 
 <script src="src/js/api.js" type="module"></script>
