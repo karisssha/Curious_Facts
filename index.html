@@ -32,6 +32,7 @@
         <img class="facts-cat" src="/assets/img/cat_splash.svg" alt="Image of a cat with a shocking expression">
     </div>
    <div class="fact-content">
+        <input type="hidden" id="fact-API-id">
         <p id="fact-API">Text</p>
     </div>
 </div>
@@ -53,7 +54,7 @@
  </div>
 
  <footer class="footer-css">
-    <img class="add-to-favorites" onclick="" src="/assets/img/bt_add_fav.svg" alt="Button to add curious fact to Favorites">
+    <img class="add-to-favorites" id="id_addToFavourite" src="/assets/img/bt_add_fav.svg" alt="Button to add curious fact to Favorites">
     <img id="next-fact-btn" class="next-fact" src="/assets/img/bt_next.svg" alt="Button to go to the next favorite">
     <img class="favorites-list" onclick="" src="/assets/img/bt_myfav.svg" alt="Button to go to the Favorites List">
 </footer>
@@ -61,6 +62,7 @@
 <script src="src/js/api.js" type="module"></script>
 <script src="src/js/events.js" type="module"></script>
 <script src="src/js/functions.js" type="module"></script>
+<script src="src/js/favourites.js" type="module"></script>
 
 </body>
 </html>
