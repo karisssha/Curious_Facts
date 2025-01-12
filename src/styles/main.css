@@ -1,6 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
 body {
     background-color: #dd8dc8;
-    font-family: 'Readex Pro';
+    font-family: "Readex Pro", serif;
+    background-image: url("/assets/img/stars_bg.SVG");
+    /* background-size: auto; */
+    background-repeat:repeat;
+ 
+}
+
+main {
+    /* min-width: 365px; */
 }
 
 .welcome-screen {
@@ -26,5 +40,5 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }

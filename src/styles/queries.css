@@ -1,9 +1,40 @@
-@media all and (min-width: 1025px) {
+@media (min-width:992px){
+    
+       
+    }
     .fact-content{
-        max-height: 20vw;
+       
+        /* height: 800px; */
+        width: 80%;
+        
     }
 
-    .facts-cat {
-        width: 11vw;
+
+
+
+    @media (max-width:345px) {
+
+      .fact-content{
+       
+        height: 345px;
+        /* width: 80%; */
+        /* min-width: 80%; */
+        /* background-color: blue; */
+    }
+
+    #facts-cat {
+        height: 8em;
+        margin-bottom: 12em; 
+        
+        /* height: auto;
+        width: 30vw; */
+        /* position: absolute; */
+    }
+
+    #fact-API, #fav-fact{
+        margin: 12%;
+        margin-top: 120px;
+        text-align: center;
+        font-size: 10pt;
     }
     }

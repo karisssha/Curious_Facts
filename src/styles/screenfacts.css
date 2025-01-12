@@ -1,40 +1,65 @@
-.curiosity-screen {
+.curiosity-screen{
     display: flex;
     flex-direction: column;
-    height: 144vw;
     align-items: center;
     justify-content: center;
-    margin-top: 17vw;
+    position:relative;
+    /* min-width: 365px; */
+    /* margin-top: 17vw;
+    margin: auto;
+    padding: 20px;  */
+
 }
 
 .facts-cat-div {
-    position:absolute;
+    /* position:absolute;
+    display: flex; */
+    /* justify-content: center;
+    place-items: center;  */
+ /* margin-bottom: 115vw; */
     display: flex;
-    justify-content: center;
-    place-items: center;
-    z-index: 99;
-    margin-bottom: 115vw;
+    align-items: center;
+    z-index: 9999;
+    position:absolute;
 }
 
-.facts-cat {
-    height: auto;
-    width: 30vw;
-    position: absolute;
+#facts-cat {
+    height: 17em;
+    margin-bottom: 42em; 
+    /* height: auto;
+    width: 30vw; */
+    /* position: absolute; */
 }
 
 .fact-content {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 92%;
+    justify-content: center; 
+    flex-direction: column; */
+    /* height: auto; */
+    /* margin: 2em; */
+    /* margin-bottom: 4em; 
+    margin-top: 15vw; */
+    /* min-width: 80vw; 
+    min-height: 129vw;  */
+    font-size: 40pt;
+    border-radius: 40px; 
+    position: relative;
+    margin-top: 120px;
     background-color: #00d4d8;
-    margin: 1em;
-    margin-bottom: 4em;
-    margin-top: 15vw;
-    border-radius: 7%;
-    min-width: 80vw;
-    min-height: 109vw;
+    background-image: url("/assets/img/stars_bg.svg");
+    height: 900px;
+
+}
+
+.favourite .fact-content {
+    background-color: #F04F9B;
+}
+
+#fact-API{
+    margin: 12%;
+    margin-top: 200px;
+    text-align: center;
 }
 
 .footer-css {

@@ -11,7 +11,8 @@ async function getRandomFact() {
       const json = await response.json();
   
       let randomFact = json.text;
-      changeRandomFact(randomFact);
+      let randomFactId = json.id;
+      changeRandomFact(randomFactId, randomFact);
   
     } catch (error) {
         console.error(error.message);
