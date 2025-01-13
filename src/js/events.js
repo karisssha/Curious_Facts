@@ -10,11 +10,16 @@ function showRandomFact (){
     const fact = document.querySelector ('#fact-API');
     const favouriteFacts = document.querySelector ('#favourites-list');
     const kitty = document.querySelector ('#facts-cat');
+    const footer = document.querySelector("#id-footer");
+    const splash = document.querySelector('#id-welcomeScreen');
 
     fact.classList.remove ('hidden');
     favouriteFacts.classList.add ('hidden');
     curiosityScreen.classList.remove ('favourite');
     kitty.setAttribute('src', '/assets/img/cat_splash.svg');
+    footer.classList.remove ('hidden');
+    splash.classList.add ('hidden');
+    curiosityScreen.classList.remove ('hidden');
 }
 
 const clickNextFact = document.querySelector("#next-fact-btn");
@@ -46,3 +51,8 @@ function showFavourites (){
 
 const clickgoToFavourite = document.querySelector('#id_goToFavourites');
 clickgoToFavourite.addEventListener("click", showFavourites)
+
+// event to click start
+
+const clickStart = document.querySelector('#start-button')
+clickStart.addEventListener("click",showRandomFact)
