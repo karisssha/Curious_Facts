@@ -22,7 +22,7 @@ export const renderFavourites = function (){
     document.querySelector ("#favourites-list").appendChild(ul)
 
     let favourites = getFavourites();
-    for (const [value] of Object.entries(favourites)) {
+    for (const [key,value] of Object.entries(favourites)) {
         const li = document.createElement("li")
         li.innerHTML = value.substring(0,40) + "..."
         ul.appendChild(li)
