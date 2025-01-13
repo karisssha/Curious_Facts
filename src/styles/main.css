@@ -8,7 +8,8 @@ body {
     background-color: #dd8dc8;
     font-family: "Readex Pro", serif;
     background-image: url("/assets/img/stars_bg.gif");
-    background-repeat:repeat;
+    background-repeat: repeat;
+    cursor: pointer;
 }
 
 .welcome-screen {
