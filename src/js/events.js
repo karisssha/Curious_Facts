@@ -1,6 +1,6 @@
 import { getRandomFact } from "./api.js";
 
-import { addFavourite, renderFavourites } from "./favourites.js";
+import { addFavourite, showFavourites } from "./favourites.js";
 
 // evento click API
 
@@ -31,21 +31,6 @@ clickNextFact.addEventListener("click", showRandomFact)
 const clickAddFavourite = document.querySelector('#id_addToFavourite');
 clickAddFavourite.addEventListener("click", addFavourite)
 
-
-//function for showing and hidden screens
-
-function showFavourites (){
-    renderFavourites()
-    const curiosityScreen = document.querySelector ('#id-curiosity-screen');
-    const fact = document.querySelector ('#fact-API');
-    const favouriteFacts = document.querySelector ('#favourites-list');
-    const kitty = document.querySelector ('#facts-cat');
-
-    fact.classList.add ('hidden');
-    favouriteFacts.classList.remove ('hidden');
-    curiosityScreen.classList.add ('favourite');
-    kitty.setAttribute('src', '/assets/img/cat_favourites.svg');
-}
 
 // event to go to favourite
 
