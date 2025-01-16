@@ -3,51 +3,39 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position:relative;
-    /* min-width: 365px; */
-    /* margin-top: 17vw;
-    margin: auto;
-    padding: 20px;  */
+
+
 }
 
 .facts-cat-div {
-    /* position:absolute;
-    display: flex; */
-    /* justify-content: center;
-    place-items: center;  */
- /* margin-bottom: 115vw; */
-    display: flex;
-    align-items: center;
-    z-index: 9999;
-    position:absolute;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
 }
 
 #facts-cat {
     height: 17em;
-    margin-bottom: 42em; 
-    /* height: auto;
-    width: 30vw; */
-    /* position: absolute; */
+
+
 }
 
 .fact-content {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; 
-    flex-direction: column; */
-    /* height: auto; */
-    /* margin: 2em; */
-    /* margin-bottom: 4em; 
-    margin-top: 15vw; */
-    /* min-width: 80vw; 
-    min-height: 129vw;  */
-    font-size: 40pt;
+
+    font-size: 25pt;
     border-radius: 40px; 
     position: relative;
-    margin-top: 120px;
+    margin-top: 14rem;
     background-color: #00d4d8;
     background-image: url("/assets/img/stars_bg.svg");
-    height: 900px;
+    height: 34rem;
+    width: auto;
+    z-index: 0; 
+    display: flex;
+    justify-content: space-around;
+
 
 }
 
@@ -56,9 +44,15 @@
 }
 
 #fact-API{
-    margin: 12%;
-    margin-top: 200px;
-    text-align: center;
+
+    text-align: center; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 11rem;
+    padding: 1rem;
+    height: 14rem;
+    overflow: scroll; 
+
 }
 
 .footer-css {
@@ -70,6 +64,7 @@
     width: 100%;
     height: 12%;
     margin-bottom: 25px;
+    z-index: 2; 
 }
 
 .add-to-favorites {
@@ -85,4 +80,25 @@
 .favorites-list {
     height: auto;
     width: 90px;
+
+}
+
+#id-favourite-fact {
+    padding:auto;
+    height: 250px;
+    overflow: scroll;
+}
+
+.popUp {
+    background: url(/assets/img/popup2.svg);
+    background-repeat: no-repeat;
+    height: 5rem;
+    width: 10rem;
+    color: #00d4d8;
+    justify-content: center; 
+    position: absolute;
+    padding:10px; 
+    text-align: center;
+    z-index: 10;
+
 }
