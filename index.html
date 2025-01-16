@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/main.css">
-    <link rel="stylesheet" href="./src/styles/screenfacts.css">
-    <link rel="stylesheet" href="./src/styles/queries.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Readex+Pro:wght@160..700&display=swap");
+    </style>
     <title>SPA cat facts</title>
-</head>
+    <style type="text/css">
+      body,
+      a:hover {
+        cursor: url(http://www.zingerbugimages.com/cursors/cat1.ani),
+          url(http://www.zingerbug.com/cursors/cursors/cat1.gif), progress !important;
+      }
+    </style>
+  </head>
 <body>
 
 <!-- FIRST SCREEN - WELCOME -->
@@ -30,6 +32,7 @@
 <div class="curiosity-screen hidden" id="id-curiosity-screen">
     <div class="facts-cat-div">
         <img id="facts-cat" src="/assets/img/cat_splash.svg" alt="Image of a cat with a shocking expression">
+        <div class="popUp hidden" id="id-popUp"> You added a <br> new favourite! </div>
     </div>
    <div class="fact-content">
         <input type="hidden" id="fact-API-id">
@@ -42,24 +45,6 @@
         </ul> -->
     </div>
 </div>
-
-<!--THIRD SCREEN - FAVORITES LIST-->
-<!-- <div class="favorites-screen hidden" id="id-favourites-screen">
-    <div class="facts-cat-div">
-        <img class="facts-cat" src="/assets/img/cat_favourites.svg" alt="Image of a cat with a shocking expression">
-    </div>
-    <div class="fav-content">
-         <p id="fav-fact"> favorite fact </p>
-     </div>
- </div> -->
-
- <!--FOURTH SCREEN - SELECTED FAVORITES -->
- <!-- <div class="selected-favorite hidden" id="id-selected-favourite">
-    <div class="fav-selection">
-         <img src="" alt="image of cat with heart eyes">
-         <p id="picked-fav-fact"> favorite fact </p>
-     </div>
- </div> -->
 
  <footer class="footer-css hidden" id="id-footer">
     <img class="add-to-favorites" id="id_addToFavourite" src="/assets/img/bt_add_fav.svg" alt="Button to add curious fact to Favorites">
