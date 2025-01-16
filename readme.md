@@ -54,14 +54,14 @@ ESTRUCTURA DEL PROYECTO
 
 Instalación
 Clona el repositorio:
-
 git clone  https://github.com/karisssha/Curious_Facts.git
+
 Navega a la carpeta del proyecto:
-
 cd Curious_Facts
-Instala las dependencias:
 
+Instala las dependencias:
 npm install
+
 Abre el archivo index.html en tu navegador para ver el juego en acción.
 
 Proceso de Desarrollo
