@@ -11,6 +11,12 @@ export const addFavourite = function (){
     favourites[randomFactIdValue] = randomFactValue
 
     localStorage.setItem('favourites', JSON.stringify(favourites));
+    // pop up //
+    const popup = document.querySelector("#id-popUp")
+    popup.classList.remove("hidden")
+    setTimeout(function(){
+        popup.classList.add("hidden")
+    },3000)
 }
 
 //render favourite list

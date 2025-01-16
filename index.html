@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/main.css">
-    <link rel="stylesheet" href="./src/styles/screenfacts.css">
-    <link rel="stylesheet" href="./src/styles/queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <style type='text/css'>body, a:hover {cursor: url(http://www.zingerbugimages.com/cursors/cat1.ani), url(http://www.zingerbug.com/cursors/cursors/cat1.gif), progress !important;}</style>
     <title>SPA cat facts</title>
 </head>
 <body>
-
 <!-- FIRST SCREEN - WELCOME -->
 
     <div class="welcome-screen" id="id-welcomeScreen">
@@ -30,6 +28,7 @@
 <div class="curiosity-screen hidden" id="id-curiosity-screen">
     <div class="facts-cat-div">
         <img id="facts-cat" src="/assets/img/cat_splash.svg" alt="Image of a cat with a shocking expression">
+        <div class="popUp hidden" id="id-popUp"> You added a <br> new favourite! </div>
     </div>
    <div class="fact-content">
         <input type="hidden" id="fact-API-id">
