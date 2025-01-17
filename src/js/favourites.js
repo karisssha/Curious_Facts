@@ -20,7 +20,7 @@ export const addFavourite = function (){
     },3000)
 };
 
-//function for showing and hidden screens
+//function for showing and hiding screens
 
 export function showFavourites (){
     renderFavourites()
@@ -46,7 +46,7 @@ export function showFavourites (){
 const renderFavourites = function (){
     const ul = document.createElement("ul");
     ul.setAttribute ("id", "id-favourite-fact");
-    document.querySelector ("#favourites-list").innerHTML = "";
+    document.querySelector ("#favourites-list").innerHTML = "my favourites";
     document.querySelector ("#favourites-list").appendChild(ul);
 
     let favourites = getFavourites();
