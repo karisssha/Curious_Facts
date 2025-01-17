@@ -82,3 +82,10 @@ Fase 3: Estilización y Diseño UX/UI
 
 Copyyright
 Priscila Guillén, Mariuxi Olaya, Mariona Cuyàs, Karisa Meléndez.
+
+   |\---/|
+   | ,_, |
+    \_`_/-..----.
+ ___/ `   ' ,""+ \  
+(__...'   __\    |`.___.';
+  (_,...'(_,.`__)/'.....+
