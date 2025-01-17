@@ -94,8 +94,8 @@
 .popUp {
     background: url(/assets/img/popup2.svg);
     background-repeat: no-repeat;
-    height: 5rem;
-    width: 10rem;
+    height: 4rem;
+    width: 9rem;
     color: #00d4d8;
     justify-content: center; 
     position: absolute;
