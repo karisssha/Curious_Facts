@@ -1,6 +1,6 @@
 @media (min-width: 992px) { 
     .fact-content  { 
-    max-height: 28rem; 
+    height: 45rem; 
     background-color: green; 
     margin:16rem;
     }
@@ -13,11 +13,12 @@
 }
   }
 
-  @media (min-width: 500px) { 
+  @media (min-width: 376px) and (max-width: 991px) { 
     .fact-content  {
     width: 80%; 
-    height: 33rem; 
-    background-color: red;  
+    height: 32rem; 
+    background-color: red;
+    margin-top: 12rem;  
     }
     #id-favourite-fact {
         background-color:green; 
@@ -33,8 +34,8 @@
    @media (max-width: 375px) { 
     .fact-content  {
     width: 90%; 
-    height: 34rem;
-    margin: 9rem;
+    height: 32rem;
+    margin: 12rem;
     font-size: x-large;
     background-color: green; 
     }
