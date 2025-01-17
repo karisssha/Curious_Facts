@@ -57,7 +57,7 @@
 
 .footer-css {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -85,7 +85,8 @@
 
 #id-favourite-fact {
     padding:auto;
-    height: 250px;
+    height: 72%;
+    width: 90%;
     overflow: scroll;
     font-size: 16px;
     margin-top: 4rem;

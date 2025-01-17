@@ -32,7 +32,7 @@ body {
 }
 
 #welcome-cat {
-    height: 58vw;
+    height: 20rem;
     padding: 60px;
 }
 
@@ -61,10 +61,11 @@ li {
 
 #favourites-list {
 z-index: 4;
-text-align: center; 
-margin-top: 5rem;
-
+text-align: -webkit-center; 
+margin-top: 6rem;
+color: #FFFFA1;
 }
+
 .hidden {
     display: none !important;
 }
