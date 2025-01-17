@@ -12,9 +12,13 @@ function showRandomFact (){
     const kitty = document.querySelector ('#facts-cat');
     const footer = document.querySelector("#id-footer");
     const splash = document.querySelector('#id-welcomeScreen');
+    const addFavButton = document.querySelector("#id_addToFavourite");
+    const favButton = document.querySelector('#id_goToFavourites');
 
     fact.classList.remove ('hidden');
     favouriteFacts.classList.add ('hidden');
+    addFavButton.classList.remove('hidden');
+    favButton.classList.remove('hidden');
     curiosityScreen.classList.remove ('favourite');
     kitty.setAttribute('src', '/assets/img/cat_splash.svg');
     footer.classList.remove ('hidden');

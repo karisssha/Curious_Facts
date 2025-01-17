@@ -28,9 +28,15 @@ export function showFavourites (){
     const fact = document.querySelector ('#fact-API');
     const favouriteFacts = document.querySelector ('#favourites-list');
     const kitty = document.querySelector ('#facts-cat');
+    const addFavButton = document.querySelector("#id_addToFavourite");
+    const favButton = document.querySelector('#id_goToFavourites');
+    const nextFactButton = document.querySelector('#next-fact-btn');
 
     fact.classList.add ('hidden');
     favouriteFacts.classList.remove ('hidden');
+    addFavButton.classList.add('hidden');
+    favButton.classList.add('hidden');
+    nextFactButton.classList.remove('hidden');
     curiosityScreen.classList.add ('favourite');
     kitty.setAttribute('src', '/assets/img/cat_favourites.svg');
 }
@@ -63,8 +69,12 @@ function showFavouriteFact (favouriteFactsId) {
     const favouriteFact = favourites[favouriteFactsId]; 
     const fact = document.querySelector("#fact-API");
     const favouriteFacts = document.querySelector("#favourites-list");
+    const nextFactButton = document.querySelector('#next-fact-btn');
+    const favButton = document.querySelector('#id_goToFavourites');
 
     fact.classList.remove('hidden');
     favouriteFacts.classList.add('hidden');
+    nextFactButton.classList.add('hidden');
+    favButton.classList.remove('hidden');
     changeRandomFact(favouriteFactsId, favouriteFact);
 };
