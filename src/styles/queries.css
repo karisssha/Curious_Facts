@@ -1,13 +1,18 @@
-/* @media (min-width: 992px) { 
+@media (min-width: 480px) { 
     .fact-content  { 
-    height: 45rem; 
-    background-color: green; 
-    margin:16rem;
+    margin-top: 4em;
     }
-    img {
-    width: 100%;
   }
 
+  @media (min-width: 900px) {
+    .fact-content {
+      margin-top: 6em;
+    }
+    .facts-cat-div {
+      top: 24%;
+    }
+  }
+/* 
   #fact-API {
     overflow: hidden;
 }
