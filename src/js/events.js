@@ -2,46 +2,36 @@ import { getRandomFact } from "./api.js";
 
 import { addFavourite, showFavourites } from "./favourites.js";
 
-// evento click API
+function showRandomFact() {
+  getRandomFact();
+  const curiosityScreen = document.querySelector("#id-curiosity-screen");
+  const fact = document.querySelector("#fact-API");
+  const favouriteFacts = document.querySelector("#favourites-list");
+  const kitty = document.querySelector("#facts-cat");
+  const footer = document.querySelector("#id-footer");
+  const splash = document.querySelector("#id-welcomeScreen");
+  const addFavButton = document.querySelector("#id_addToFavourite");
+  const favButton = document.querySelector("#id_goToFavourites");
 
-function showRandomFact (){
-    getRandomFact();
-    const curiosityScreen = document.querySelector ('#id-curiosity-screen');
-    const fact = document.querySelector ('#fact-API');
-    const favouriteFacts = document.querySelector ('#favourites-list');
-    const kitty = document.querySelector ('#facts-cat');
-    const footer = document.querySelector("#id-footer");
-    const splash = document.querySelector('#id-welcomeScreen');
-    const addFavButton = document.querySelector("#id_addToFavourite");
-    const favButton = document.querySelector('#id_goToFavourites');
-
-    fact.classList.remove ('hidden');
-    favouriteFacts.classList.add ('hidden');
-    addFavButton.classList.remove('hidden');
-    favButton.classList.remove('hidden');
-    curiosityScreen.classList.remove ('favourite');
-    kitty.setAttribute('src', '/assets/img/cat_splash.svg');
-    footer.classList.remove ('hidden');
-    splash.classList.add ('hidden');
-    curiosityScreen.classList.remove ('hidden');
+  fact.classList.remove("hidden");
+  favouriteFacts.classList.add("hidden");
+  addFavButton.classList.remove("hidden");
+  favButton.classList.remove("hidden");
+  curiosityScreen.classList.remove("favourite");
+  kitty.setAttribute("src", "/assets/img/cat_splash.svg");
+  footer.classList.remove("hidden");
+  splash.classList.add("hidden");
+  curiosityScreen.classList.remove("hidden");
 }
 
 const clickNextFact = document.querySelector("#next-fact-btn");
-clickNextFact.addEventListener("click", showRandomFact)
+clickNextFact.addEventListener("click", showRandomFact);
 
+const clickAddFavourite = document.querySelector("#id_addToFavourite");
+clickAddFavourite.addEventListener("click", addFavourite);
 
-// event to add a favourite
+const clickgoToFavourite = document.querySelector("#id_goToFavourites");
+clickgoToFavourite.addEventListener("click", showFavourites);
 
-const clickAddFavourite = document.querySelector('#id_addToFavourite');
-clickAddFavourite.addEventListener("click", addFavourite)
-
-
-// event to go to favourite
-
-const clickgoToFavourite = document.querySelector('#id_goToFavourites');
-clickgoToFavourite.addEventListener("click", showFavourites)
-
-// event to click start
-
-const clickStart = document.querySelector('#start-button')
-clickStart.addEventListener("click",showRandomFact)
+const clickStart = document.querySelector("#start-button");
+clickStart.addEventListener("click", showRandomFact);
