@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "### Descripción del Proyecto Este proyecto tiene como objetivo crear una single landing page entretenida para el la app de Curious Facts. Está pensada para ser informativa y llamativa, brindando la experiencia de poder guardar los datos en una lista de favoritos para que los usuarios que quieran volver a mirarlos puedan acceder a ellos facilmente. Hemos incorporado un diseño creativo y un comportamiento interactivo adecuado tanto para escritorio como dispositivos móviles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "type": "modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karisssha/Curious_Facts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karisssha/Curious_Facts/issues"
+  },
+  "homepage": "https://github.com/karisssha/Curious_Facts#readme",
+  "dependencies": {
+    "node-modules": "^0.0.1"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "vitest": "^3.0.1"
+  }
+}
