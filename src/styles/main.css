@@ -1,8 +1,9 @@
 @import url("/src/styles/screenfacts.css");
 @import url("/src/styles/queries.css");
 
-*{
-  color: white;
+* {
+    color: white;
+    
 }
 
 body {
@@ -19,21 +20,21 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 3rem;
-    min-height: 70vh;
+    min-height: 4rem;
 
 }
 
-#welcome-text{
+#welcome-text {
     display: flex;
     align-items: self-end;
-    font-size: 48px;
+    font-size: 3rem;
     color: white;
     text-align: center;
 }
 
 #welcome-cat {
     height: 20rem;
-    padding: 60px;
+    padding: 0.2rem;
 }
 
 .hidden {
@@ -42,40 +43,19 @@ body {
 
 #start-button {
     background-color: #00D4D8;
-    height: 60px;
-    width: 150px;
-    border-radius: 5px;
+    height: 4rem;
+    width: 9rem;
+    border-radius: 0.5rem;
     border-color: #00D4D8;
     font-weight: bold;
-    font-size: larger;
-}
-
-li { 
-    list-style-image: url(/assets/img/bullet_heart.svg); 
-} 
-
-#id-favourite-fact {
-   margin-top: 1rem; 
+    font-size: 1.2rem;
 }
 
 
-#favourites-list {
-z-index: 4;
-text-align: -webkit-center; 
-margin-top: 6rem;
-color: #FFFFA1;
+li {
+    list-style-image: url(/assets/img/bullet_heart.svg);
 }
 
 .hidden {
     display: none !important;
-}
-
-#start-button {
-    background-color: #00D4D8;
-    height: 60px;
-    width: 150px;
-    border-radius: 5px;
-    border-color: #00D4D8;
-    font-weight: bold;
-    font-size: larger;
 }

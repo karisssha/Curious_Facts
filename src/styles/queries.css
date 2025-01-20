@@ -1,66 +1,35 @@
-@media (min-width: 480px) { 
-    .fact-content  { 
-    margin-top: 4em;
+@media (min-width: 480px) {
+  .fact-content {
+    margin-top: 2em;
     min-width: 80%;
-    }
+    height: 30rem;
   }
 
-  @media (min-width: 900px) {
-    #welcome-cat {
-      max-height: 30rem;
+  #facts-cat {
+    height: 12rem;
   }
-    
-    .fact-content {
-      margin-top: 6em;
-    }
-    .facts-cat-div {
-      top: 24%;
-    }
+
+  #fact-API {
+   margin-top: 10rem;
+  }
+}
+
+@media (min-width: 900px) {
+  #welcome-cat {
+    max-height: 28rem;
+  }
+
+  #facts-cat {
+    height: 12rem;
+  }
+
+  #id-favourite-fact {
+    width: 100%;
+    font-size: 1.7rem;
+  }
 
   #fact-API {
     overflow: hidden;
-}
-
-/*
-  @media (min-width: 376px) and (max-width: 991px) { 
-    .fact-content  {
-    width: 80%; 
-    height: 32rem; 
-    background-color: red;
-    margin-top: 12rem;  
-    }
-    #id-favourite-fact {
-        background-color:green; 
-        margin-top: 17%;
-
-    }
-    img {
-        width: 90%;
-    }
+    margin-top: 10rem;
   }
-
-
-   @media (max-width: 375px) { 
-    .fact-content  {
-    width: 90%; 
-    height: 32rem;
-    margin: 12rem;
-    font-size: x-large;
-    background-color: green; 
-    }
-
-    #fact-API {
-        margin-top: 7rem;
-    }
-
-    #id-favourite-fact {
-    background-color:green; 
-    margin-top: 5%;
-    height: 250px;
-    overflow: scroll;
-    }
-
-    img {
-        width: 100%;
-    }
-  } */
+}
