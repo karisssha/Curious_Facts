@@ -18,7 +18,7 @@ describe("Second Page", () => {
     it('should add a fact', () => {
         expect(addFavourite).not.toBeNull();
     });
-})
+});
 
 describe("API Call", () => {
 
